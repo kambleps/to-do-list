@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: rgb(65, 156, 168);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.first-child input{
+    background: #ffffff;
+    margin-top: 50px ;
+    height: 25px;
+    width: 400px;
+    padding: 5px;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.first-child button{
+    padding: 10px;
+    background:yellowgreen;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-weight: bolder;
+    margin-left: 5px;
+    /* font-size: 14px; */
+}
+.second-child .show{
+    display: flex;
+    flex-flow: row;
+    /* border: 1px solid black; */
+    height: 25px;
+    width: 400px;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 4px;
+    background-color: rgb(189, 43, 50);
+    margin-left: -85px;
+    border-radius: 20px;
+    text-align: center;
+}
+.show p{
+    background-color: rgb(189, 43, 50);
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+    /* text-align: center; */
+}
+.show button{
+    padding: 5px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    background: green;
+}
+.btn{
+    margin-top: 20px;
+    background: blue;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 50px;
+}
